@@ -14,10 +14,6 @@ $(document).ready(function () {
     $("#info").append("<button type = 'button' title = 'Add Records'  class = 'glyphicon glyphicon-plus-sign btn btn-info btn-sm highlight ' id='update'  >&nbsp;Add</buttton> ");
 
 
-
-
-    //"td").dblclick(edit);
-
     $("#table").on('dblclick', 'td', function (event) {
 
         event.preventDefault();
@@ -57,7 +53,7 @@ $(document).ready(function () {
 
         });
         $("input:first").focus();
-        //$("td").dblclick(edit);
+      
 
     });
     userInput.bind("keypress", function (event) {
